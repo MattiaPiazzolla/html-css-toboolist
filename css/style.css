@@ -1,3 +1,4 @@
+/*GENERALI*/
 *{
     padding: 0;
     margin: 0;
@@ -8,12 +9,18 @@ body{
     background-color: #F7F8FA ;
 }
 
+main{
+    width: 60%;
+    margin: 20px auto;
+}
+
 /*STILE LOGO E TITO*/
 header{
     background-color: #fff;
-    width: 1200px;
+    width: 100%;
     height: 70px;
-    padding: 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
 }
 .logo{
     width: 50px;
@@ -23,6 +30,34 @@ h1{
 }
 .v-align-middle{
     vertical-align: middle;
+}
+
+/*STILE SEZIONE BOTTONI*/
+.buttons-container{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 17.5px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 9px;
+}
+
+.bg-blue{
+    background-color:#42B3EF;
+    color: white;
+}
+
+.bg-white{
+    background-color: #fff;
+    color: #D6D6D6;
+    border: 0.5px solid #D6D6D6;
 }
 
 /*.circle{
